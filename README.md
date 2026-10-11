@@ -293,6 +293,4 @@ python -m unittest discover -s . -p 'test_*.py' -v
 - 日志和状态文件可能包含对话 ID、标题及账号标识。公开上传时使用配置模板，并保留 `.gitignore` 对 `config.json`、运行目录和日志的忽略规则。
 - GitHub 用于保存源码和分发程序，实际额度监测运行在本地 Windows 电脑上。
 
-## 部署与发布
 
-完整的 GitHub 上传、EXE 发布和其他电脑部署流程见 [部署步骤](DEPLOYMENT.md)。
